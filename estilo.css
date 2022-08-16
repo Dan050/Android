@@ -57,7 +57,7 @@ footer{
     text-align: center;
     color: white;
     padding: 2px 2px;
-    margin-top: 2em;
+    margin: 2em auto 0px auto;
 }
 main{
     width: 1000px;
@@ -147,5 +147,15 @@ img{
 }
 #video{
     background-color: var(--cor1-color);
-    
+    margin: 0px -15px 0px -15px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+#video>iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
